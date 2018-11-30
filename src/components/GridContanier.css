@@ -1,0 +1,21 @@
+.grid {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid #eeeeee;
+  overflow: hidden;
+  position: relative;
+  transition: 1s cubic-bezier(0.2, 0.82, 0.2, 1);
+}
+
+.grid:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px) scale(1.06, 1.06);
+}
+
+.grid img {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  height: 54px;
+}
