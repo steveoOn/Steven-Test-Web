@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Header from '../components/header'
 import GridContanier from '../components/GridContanier'
+import DataContainer from '../components/DataTest'
 
 const IndexPage = () => (
   <div>
@@ -34,7 +35,7 @@ const IndexPage = () => (
         </svg>
       </div>
     </div>
-
+    <DataContainer />
     <div className="grids">
       <GridContanier icon={require('../images/Company-top.svg')} />
       <GridContanier
